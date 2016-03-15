@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D8B764C1C97944300A70B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B764B1C97944300A70B71 /* AppDelegate.swift */; };
-		4D8B764E1C97944300A70B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B764D1C97944300A70B71 /* ViewController.swift */; };
+		4D8B764E1C97944300A70B71 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B764D1C97944300A70B71 /* ListViewController.swift */; };
 		4D8B76511C97944300A70B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B764F1C97944300A70B71 /* Main.storyboard */; };
 		4D8B76541C97944300A70B71 /* Trail_of_History.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B76521C97944300A70B71 /* Trail_of_History.xcdatamodeld */; };
 		4D8B76561C97944300A70B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B76551C97944300A70B71 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		4D8B76481C97944300A70B71 /* Trail of History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trail of History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8B764B1C97944300A70B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D8B764D1C97944300A70B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D8B764D1C97944300A70B71 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		4D8B76501C97944300A70B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D8B76531C97944300A70B71 /* Trail_of_History.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trail_of_History.xcdatamodel; sourceTree = "<group>"; };
 		4D8B76551C97944300A70B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				4D8B764B1C97944300A70B71 /* AppDelegate.swift */,
-				4D8B764D1C97944300A70B71 /* ViewController.swift */,
+				4D8B764D1C97944300A70B71 /* ListViewController.swift */,
 				4D8B764F1C97944300A70B71 /* Main.storyboard */,
 				4D8B76551C97944300A70B71 /* Assets.xcassets */,
 				4D8B76571C97944300A70B71 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8B764E1C97944300A70B71 /* ViewController.swift in Sources */,
+				4D8B764E1C97944300A70B71 /* ListViewController.swift in Sources */,
 				4D8B76541C97944300A70B71 /* Trail_of_History.xcdatamodeld in Sources */,
 				4D8B764C1C97944300A70B71 /* AppDelegate.swift in Sources */,
 			);
@@ -488,6 +488,7 @@
 				4D8B76751C97944300A70B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D8B76761C97944300A70B71 /* Build configuration list for PBXNativeTarget "Trail of HistoryTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				4D8B76781C97944300A70B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D8B76791C97944300A70B71 /* Build configuration list for PBXNativeTarget "Trail of HistoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				4D8B767B1C97944300A70B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

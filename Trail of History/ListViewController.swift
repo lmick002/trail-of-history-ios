@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ListViewController.swift
 //  Trail of History
 //
 //  Created by Mark Flowers on 3/14/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ListViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
