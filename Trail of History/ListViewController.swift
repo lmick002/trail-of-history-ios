@@ -10,6 +10,8 @@ import UIKit
 
 class ListViewController: UICollectionViewController {
 
+    var pointOfInterests: [PointOfInterest]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
